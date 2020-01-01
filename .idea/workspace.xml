@@ -1,38 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a391b2e1-d057-4660-a7c0-b721e2279763" name="Default Changelist" comment="solutions for question from 1 to 16.">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/For-Offer-Java.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/forOffer_Java/Code_001_Singleton$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/forOffer_Java/Code_001_Singleton$SingletonInstance.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/forOffer_Java/Code_001_Singleton.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/forOffer_Java/Code_002_FindDuplicateNum.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/forOffer_Java/Code_003_FindNumInSortedMatrix.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/forOffer_Java/Code_004_ReplaceBlankWithStr.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/forOffer_Java/Code_005_LinkedList$Node.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/forOffer_Java/Code_005_LinkedList.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/forOffer_Java/Code_006_PreInPosTravers$Node.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/forOffer_Java/Code_006_PreInPosTravers.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/forOffer_Java/Code_007_ReconstructBinaryTree$Node.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/forOffer_Java/Code_007_ReconstructBinaryTree.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/forOffer_Java/Code_008_NextNodeOfBinaryTree$Node.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/forOffer_Java/Code_008_NextNodeOfBinaryTree.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/forOffer_Java/Code_009_StackAndQueue$TwoQueueStack.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/forOffer_Java/Code_009_StackAndQueue$TwoStacksQueue.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/forOffer_Java/Code_009_StackAndQueue.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/forOffer_Java/Code_010_Fibonacci.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/forOffer_Java/Code_011_QuickSort.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/forOffer_Java/Code_012_MinNumOfRotatedArr.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/forOffer_Java/Code_013_FindPathInMatrix.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/forOffer_Java/Code_014_MoveInMatrix.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/forOffer_Java/Code_015_CuttingRope.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/forOffer_Java/Code_016_CountNumOf1.class" afterDir="false" />
+    <list default="true" id="a391b2e1-d057-4660-a7c0-b721e2279763" name="Default Changelist" comment="add solution of question 20">
+      <change afterPath="$PROJECT_DIR$/src/Code_023_ReorderNumArrary.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,6 +19,14 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="hiddenUrls">
+      <set>
+        <option value="https://github.com/alwithy/For-Offer-Java.git" />
+        <option value="https://github.com/alwithy/forOffer_Java.git" />
+      </set>
+    </option>
   </component>
   <component name="IgnoredFileRootStore">
     <option name="generatedRoots">
@@ -66,31 +45,11 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last.edited.regexp" value="sad123123-....asdasd.asdqw31231321" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="settings.github" />
   </component>
-  <component name="RunManager" selected="Application.Code_016_CountNumOf1">
-    <configuration name="Code_011_QuickSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Code_011_QuickSort" />
-      <module name="For-Offer-Java" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Code_012_MinNumOfRotatedArr" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Code_012_MinNumOfRotatedArr" />
-      <module name="For-Offer-Java" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Code_013_FindPathInMatrix" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Code_013_FindPathInMatrix" />
-      <module name="For-Offer-Java" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Code_023_ReorderNumArrary">
     <configuration name="Code_015_CuttingRope" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Code_015_CuttingRope" />
       <module name="For-Offer-Java" />
@@ -105,13 +64,34 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Code_020_DeleteDuplicationNode" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Code_020_DeleteDuplicationNode" />
+      <module name="For-Offer-Java" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Code_022_NumExpression" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Code_022_NumExpression" />
+      <module name="For-Offer-Java" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Code_023_ReorderNumArrary" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Code_023_ReorderNumArrary" />
+      <module name="For-Offer-Java" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Code_023_ReorderNumArrary" />
+        <item itemvalue="Application.Code_022_NumExpression" />
+        <item itemvalue="Application.Code_020_DeleteDuplicationNode" />
         <item itemvalue="Application.Code_016_CountNumOf1" />
         <item itemvalue="Application.Code_015_CuttingRope" />
-        <item itemvalue="Application.Code_013_FindPathInMatrix" />
-        <item itemvalue="Application.Code_012_MinNumOfRotatedArr" />
-        <item itemvalue="Application.Code_011_QuickSort" />
       </list>
     </recent_temporary>
   </component>
@@ -149,6 +129,11 @@
       <workItem from="1577537685564" duration="7050000" />
       <workItem from="1577601657956" duration="5748000" />
       <workItem from="1577685804148" duration="4587000" />
+      <workItem from="1577695722426" duration="7530000" />
+      <workItem from="1577769229553" duration="18268000" />
+      <workItem from="1577767910101" duration="7057000" />
+      <workItem from="1577861820814" duration="2676000" />
+      <workItem from="1577865143118" duration="1598000" />
     </task>
     <task id="LOCAL-00001" summary="solutions for question from 1 to 16.">
       <created>1577694469469</created>
@@ -157,7 +142,49 @@
       <option name="project" value="LOCAL" />
       <updated>1577694469469</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="change workspace">
+      <created>1577695768835</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1577695768835</updated>
+    </task>
+    <task id="LOCAL-00003" summary="add two solutions of question 17">
+      <created>1577704994508</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1577704994508</updated>
+    </task>
+    <task id="LOCAL-00004" summary="add solutions of question 18">
+      <created>1577783533000</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1577783533000</updated>
+    </task>
+    <task id="LOCAL-00005" summary="add solution of question 19">
+      <created>1577783566774</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1577783566774</updated>
+    </task>
+    <task id="LOCAL-00006" summary="add solution of question 20">
+      <created>1577802349465</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1577802349465</updated>
+    </task>
+    <task id="LOCAL-00007" summary="add another solution of question 20">
+      <created>1577861883618</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1577861883618</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -168,7 +195,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
@@ -176,17 +205,23 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="solutions for question from 1 to 16." />
-    <option name="LAST_COMMIT_MESSAGE" value="solutions for question from 1 to 16." />
+    <MESSAGE value="change workspace" />
+    <MESSAGE value="add two solutions of question 17" />
+    <MESSAGE value="add solutions of question 18" />
+    <MESSAGE value="add solution of question 19" />
+    <MESSAGE value="add solution of question 20" />
+    <MESSAGE value="add another solution of question 20" />
+    <option name="LAST_COMMIT_MESSAGE" value="add another solution of question 20" />
   </component>
   <component name="WindowStateProjectService">
     <state x="412" y="222" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1576756681372">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="412" y="222" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1576756681372" />
-    <state x="1029" y="125" key="CommitChangelistDialog2" timestamp="1577695647470">
+    <state x="1029" y="125" key="CommitChangelistDialog2" timestamp="1577861882508">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1029" y="125" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1577695647470" />
+    <state x="1029" y="125" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1577861882508" />
     <state x="1181" y="286" key="FileChooserDialogImpl" timestamp="1577694220298">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -195,58 +230,58 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1299" y="410" key="Github.ShareDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1577695431733" />
-    <state width="914" height="300" key="GridCell.Tab.0.bottom" timestamp="1577546960155">
+    <state width="914" height="278" key="GridCell.Tab.0.bottom" timestamp="1577867105591">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="914" height="300" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1577546960155" />
-    <state width="914" height="300" key="GridCell.Tab.0.center" timestamp="1577546960155">
+    <state width="914" height="278" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1577867105591" />
+    <state width="914" height="278" key="GridCell.Tab.0.center" timestamp="1577867105591">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="914" height="300" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1577546960155" />
-    <state width="914" height="300" key="GridCell.Tab.0.left" timestamp="1577546960155">
+    <state width="914" height="278" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1577867105591" />
+    <state width="914" height="278" key="GridCell.Tab.0.left" timestamp="1577867105591">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="914" height="300" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1577546960155" />
-    <state width="914" height="300" key="GridCell.Tab.0.right" timestamp="1577546960155">
+    <state width="914" height="278" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1577867105591" />
+    <state width="914" height="278" key="GridCell.Tab.0.right" timestamp="1577867105591">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="914" height="300" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1577546960155" />
-    <state width="914" height="300" key="GridCell.Tab.1.bottom" timestamp="1577546960155">
+    <state width="914" height="278" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1577867105591" />
+    <state width="914" height="300" key="GridCell.Tab.1.bottom" timestamp="1577865132671">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="914" height="300" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1577546960155" />
-    <state width="914" height="300" key="GridCell.Tab.1.center" timestamp="1577546960155">
+    <state width="914" height="300" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1577865132671" />
+    <state width="914" height="300" key="GridCell.Tab.1.center" timestamp="1577865132671">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="914" height="300" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1577546960155" />
-    <state width="914" height="300" key="GridCell.Tab.1.left" timestamp="1577546960155">
+    <state width="914" height="300" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1577865132671" />
+    <state width="914" height="300" key="GridCell.Tab.1.left" timestamp="1577865132670">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="914" height="300" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1577546960155" />
-    <state width="914" height="300" key="GridCell.Tab.1.right" timestamp="1577546960155">
+    <state width="914" height="300" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1577865132670" />
+    <state width="914" height="300" key="GridCell.Tab.1.right" timestamp="1577865132671">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="914" height="300" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1577546960155" />
+    <state width="914" height="300" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1577865132671" />
     <state x="902" y="173" key="SettingsEditor" timestamp="1577693878190">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="902" y="173" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1577693878190" />
-    <state x="1032" y="253" key="Vcs.Push.Dialog.v2" timestamp="1577695588428">
+    <state x="1032" y="253" key="Vcs.Push.Dialog.v2" timestamp="1577861896192">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1032" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1577695588428" />
-    <state x="1120" y="343" key="com.intellij.ide.util.TipDialog" timestamp="1577695731980">
+    <state x="1032" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1577861896192" />
+    <state x="1120" y="343" key="com.intellij.ide.util.TipDialog" timestamp="1577861821347">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1120" y="343" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1577695731980" />
+    <state x="1120" y="343" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1577861821347" />
     <state x="991" y="256" width="897" height="606" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1576757117779">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="991" y="256" width="897" height="606" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1920.1040@0.0.1920.1040" timestamp="1576757117779" />
-    <state x="1103" y="229" width="672" height="678" key="search.everywhere.popup" timestamp="1577543191805">
+    <state x="1103" y="229" width="672" height="678" key="search.everywhere.popup" timestamp="1577793495875">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1103" y="229" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1577543191805" />
+    <state x="1103" y="229" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1577793495875" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -255,6 +290,11 @@
           <url>file://$PROJECT_DIR$/src/Code_002_FindDuplicateNum.java</url>
           <line>14</line>
           <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Code_022_NumExpression.java</url>
+          <line>65</line>
+          <option name="timeStamp" value="6" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
