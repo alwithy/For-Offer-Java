@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a391b2e1-d057-4660-a7c0-b721e2279763" name="Default Changelist" comment="add solution of question 20">
-      <change afterPath="$PROJECT_DIR$/src/Code_023_ReorderNumArrary.java" afterDir="false" />
+    <list default="true" id="a391b2e1-d057-4660-a7c0-b721e2279763" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Code_024_FindKthNode.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -133,7 +133,7 @@
       <workItem from="1577769229553" duration="18268000" />
       <workItem from="1577767910101" duration="7057000" />
       <workItem from="1577861820814" duration="2676000" />
-      <workItem from="1577865143118" duration="1598000" />
+      <workItem from="1577865143118" duration="3303000" />
     </task>
     <task id="LOCAL-00001" summary="solutions for question from 1 to 16.">
       <created>1577694469469</created>
@@ -184,7 +184,14 @@
       <option name="project" value="LOCAL" />
       <updated>1577861883618</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="add solution of question 21">
+      <created>1577867127659</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1577867127659</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -211,17 +218,18 @@
     <MESSAGE value="add solution of question 19" />
     <MESSAGE value="add solution of question 20" />
     <MESSAGE value="add another solution of question 20" />
-    <option name="LAST_COMMIT_MESSAGE" value="add another solution of question 20" />
+    <MESSAGE value="add solution of question 21" />
+    <option name="LAST_COMMIT_MESSAGE" value="add solution of question 21" />
   </component>
   <component name="WindowStateProjectService">
     <state x="412" y="222" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1576756681372">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="412" y="222" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1576756681372" />
-    <state x="1029" y="125" key="CommitChangelistDialog2" timestamp="1577861882508">
+    <state x="1029" y="125" key="CommitChangelistDialog2" timestamp="1577867126827">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1029" y="125" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1577861882508" />
+    <state x="1029" y="125" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1577867126827" />
     <state x="1181" y="286" key="FileChooserDialogImpl" timestamp="1577694220298">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
