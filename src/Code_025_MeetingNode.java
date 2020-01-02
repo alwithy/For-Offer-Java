@@ -1,6 +1,6 @@
 public class Code_025_MeetingNode {
     //P139,面试题23 链表中环的入口节点
-    public class Node{
+    public static class Node{
         int value;
         Node next;
         public Node(int value){

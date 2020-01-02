@@ -1,6 +1,6 @@
 public class Code_024_FindKthNode {
     //P134，面试题22 链表中倒数第K个节点
-    public class Node{
+    public static class Node{
         int value;
         Node next;
         public Node(int value){

@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a391b2e1-d057-4660-a7c0-b721e2279763" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Code_025_MeetingNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Code_026_ReverseLinkedList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Code_024_FindKthNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Code_024_FindKthNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Code_025_MeetingNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Code_025_MeetingNode.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,14 +51,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="settings.github" />
   </component>
-  <component name="RunManager" selected="Application.Code_023_ReorderNumArrary">
-    <configuration name="Code_015_CuttingRope" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Code_015_CuttingRope" />
-      <module name="For-Offer-Java" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Code_026_ReverseLinkedList">
     <configuration name="Code_016_CountNumOf1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Code_016_CountNumOf1" />
       <module name="For-Offer-Java" />
@@ -85,13 +80,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Code_026_ReverseLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Code_026_ReverseLinkedList" />
+      <module name="For-Offer-Java" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Code_026_ReverseLinkedList" />
         <item itemvalue="Application.Code_023_ReorderNumArrary" />
         <item itemvalue="Application.Code_022_NumExpression" />
         <item itemvalue="Application.Code_020_DeleteDuplicationNode" />
         <item itemvalue="Application.Code_016_CountNumOf1" />
-        <item itemvalue="Application.Code_015_CuttingRope" />
       </list>
     </recent_temporary>
   </component>
@@ -134,7 +136,7 @@
       <workItem from="1577767910101" duration="7057000" />
       <workItem from="1577861820814" duration="2676000" />
       <workItem from="1577865143118" duration="3940000" />
-      <workItem from="1577942772560" duration="2748000" />
+      <workItem from="1577942772560" duration="6429000" />
     </task>
     <task id="LOCAL-00001" summary="solutions for question from 1 to 16.">
       <created>1577694469469</created>
@@ -199,7 +201,14 @@
       <option name="project" value="LOCAL" />
       <updated>1577869369097</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="add solution of question 23">
+      <created>1577949662826</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1577949662826</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -228,7 +237,8 @@
     <MESSAGE value="add another solution of question 20" />
     <MESSAGE value="add solution of question 21" />
     <MESSAGE value="add solution of question 22" />
-    <option name="LAST_COMMIT_MESSAGE" value="add solution of question 22" />
+    <MESSAGE value="add solution of question 23" />
+    <option name="LAST_COMMIT_MESSAGE" value="add solution of question 23" />
   </component>
   <component name="WindowStateProjectService">
     <state x="412" y="222" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1576756681372">
@@ -239,10 +249,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1152" y="231" key="#com.intellij.refactoring.move.moveMembers.MoveMembersDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1577949348423" />
-    <state x="1029" y="125" key="CommitChangelistDialog2" timestamp="1577869368338">
+    <state x="1029" y="125" key="CommitChangelistDialog2" timestamp="1577949661916">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1029" y="125" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1577869368338" />
+    <state x="1029" y="125" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1577949661916" />
     <state x="1181" y="286" key="FileChooserDialogImpl" timestamp="1577694220298">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -251,38 +261,38 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1299" y="410" key="Github.ShareDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1577695431733" />
-    <state width="914" height="278" key="GridCell.Tab.0.bottom" timestamp="1577867105591">
+    <state width="914" height="278" key="GridCell.Tab.0.bottom" timestamp="1577970179799">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="914" height="278" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1577867105591" />
-    <state width="914" height="278" key="GridCell.Tab.0.center" timestamp="1577867105591">
+    <state width="914" height="278" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1577970179799" />
+    <state width="914" height="278" key="GridCell.Tab.0.center" timestamp="1577970179799">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="914" height="278" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1577867105591" />
-    <state width="914" height="278" key="GridCell.Tab.0.left" timestamp="1577867105591">
+    <state width="914" height="278" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1577970179799" />
+    <state width="914" height="278" key="GridCell.Tab.0.left" timestamp="1577970179799">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="914" height="278" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1577867105591" />
-    <state width="914" height="278" key="GridCell.Tab.0.right" timestamp="1577867105591">
+    <state width="914" height="278" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1577970179799" />
+    <state width="914" height="278" key="GridCell.Tab.0.right" timestamp="1577970179799">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="914" height="278" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1577867105591" />
-    <state width="914" height="300" key="GridCell.Tab.1.bottom" timestamp="1577865132671">
+    <state width="914" height="278" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1577970179799" />
+    <state width="914" height="300" key="GridCell.Tab.1.bottom" timestamp="1577970166944">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="914" height="300" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1577865132671" />
-    <state width="914" height="300" key="GridCell.Tab.1.center" timestamp="1577865132671">
+    <state width="914" height="300" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1577970166944" />
+    <state width="914" height="300" key="GridCell.Tab.1.center" timestamp="1577970166944">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="914" height="300" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1577865132671" />
-    <state width="914" height="300" key="GridCell.Tab.1.left" timestamp="1577865132670">
+    <state width="914" height="300" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1577970166944" />
+    <state width="914" height="300" key="GridCell.Tab.1.left" timestamp="1577970166944">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="914" height="300" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1577865132670" />
-    <state width="914" height="300" key="GridCell.Tab.1.right" timestamp="1577865132671">
+    <state width="914" height="300" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1577970166944" />
+    <state width="914" height="300" key="GridCell.Tab.1.right" timestamp="1577970166944">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="914" height="300" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1577865132671" />
+    <state width="914" height="300" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1577970166944" />
     <state x="902" y="173" key="SettingsEditor" timestamp="1577693878190">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -316,6 +326,11 @@
           <url>file://$PROJECT_DIR$/src/Code_022_NumExpression.java</url>
           <line>65</line>
           <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Code_026_ReverseLinkedList.java</url>
+          <line>48</line>
+          <option name="timeStamp" value="7" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
