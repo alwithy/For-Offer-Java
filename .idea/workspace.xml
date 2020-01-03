@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a391b2e1-d057-4660-a7c0-b721e2279763" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Code_026_ReverseLinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Code_028_SubtreeOfBinaryTree.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Code_024_FindKthNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Code_024_FindKthNode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Code_025_MeetingNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Code_025_MeetingNode.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,14 +49,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="settings.github" />
   </component>
-  <component name="RunManager" selected="Application.Code_026_ReverseLinkedList">
-    <configuration name="Code_016_CountNumOf1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Code_016_CountNumOf1" />
-      <module name="For-Offer-Java" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Code_027_MergeSortedList">
     <configuration name="Code_020_DeleteDuplicationNode" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Code_020_DeleteDuplicationNode" />
       <module name="For-Offer-Java" />
@@ -87,13 +78,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Code_027_MergeSortedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Code_027_MergeSortedList" />
+      <module name="For-Offer-Java" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Code_027_MergeSortedList" />
         <item itemvalue="Application.Code_026_ReverseLinkedList" />
         <item itemvalue="Application.Code_023_ReorderNumArrary" />
         <item itemvalue="Application.Code_022_NumExpression" />
         <item itemvalue="Application.Code_020_DeleteDuplicationNode" />
-        <item itemvalue="Application.Code_016_CountNumOf1" />
       </list>
     </recent_temporary>
   </component>
@@ -136,7 +134,8 @@
       <workItem from="1577767910101" duration="7057000" />
       <workItem from="1577861820814" duration="2676000" />
       <workItem from="1577865143118" duration="3940000" />
-      <workItem from="1577942772560" duration="6429000" />
+      <workItem from="1577942772560" duration="7146000" />
+      <workItem from="1578019284560" duration="6464000" />
     </task>
     <task id="LOCAL-00001" summary="solutions for question from 1 to 16.">
       <created>1577694469469</created>
@@ -208,7 +207,28 @@
       <option name="project" value="LOCAL" />
       <updated>1577949662826</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="fix some bugs">
+      <created>1577970218020</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1577970218020</updated>
+    </task>
+    <task id="LOCAL-00012" summary="add solution of question 24">
+      <created>1577970260231</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1577970260231</updated>
+    </task>
+    <task id="LOCAL-00013" summary="add solution of question 25">
+      <created>1578030235351</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1578030235351</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -238,7 +258,10 @@
     <MESSAGE value="add solution of question 21" />
     <MESSAGE value="add solution of question 22" />
     <MESSAGE value="add solution of question 23" />
-    <option name="LAST_COMMIT_MESSAGE" value="add solution of question 23" />
+    <MESSAGE value="fix some bugs" />
+    <MESSAGE value="add solution of question 24" />
+    <MESSAGE value="add solution of question 25" />
+    <option name="LAST_COMMIT_MESSAGE" value="add solution of question 25" />
   </component>
   <component name="WindowStateProjectService">
     <state x="412" y="222" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1576756681372">
@@ -249,10 +272,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1152" y="231" key="#com.intellij.refactoring.move.moveMembers.MoveMembersDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1577949348423" />
-    <state x="1029" y="125" key="CommitChangelistDialog2" timestamp="1577949661916">
+    <state x="1029" y="125" key="CommitChangelistDialog2" timestamp="1578030234503">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1029" y="125" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1577949661916" />
+    <state x="1029" y="125" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1578030234503" />
     <state x="1181" y="286" key="FileChooserDialogImpl" timestamp="1577694220298">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -261,22 +284,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1299" y="410" key="Github.ShareDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1577695431733" />
-    <state width="914" height="278" key="GridCell.Tab.0.bottom" timestamp="1577970179799">
+    <state width="914" height="278" key="GridCell.Tab.0.bottom" timestamp="1578030212247">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="914" height="278" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1577970179799" />
-    <state width="914" height="278" key="GridCell.Tab.0.center" timestamp="1577970179799">
+    <state width="914" height="278" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1578030212247" />
+    <state width="914" height="278" key="GridCell.Tab.0.center" timestamp="1578030212247">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="914" height="278" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1577970179799" />
-    <state width="914" height="278" key="GridCell.Tab.0.left" timestamp="1577970179799">
+    <state width="914" height="278" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1578030212247" />
+    <state width="914" height="278" key="GridCell.Tab.0.left" timestamp="1578030212247">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="914" height="278" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1577970179799" />
-    <state width="914" height="278" key="GridCell.Tab.0.right" timestamp="1577970179799">
+    <state width="914" height="278" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1578030212247" />
+    <state width="914" height="278" key="GridCell.Tab.0.right" timestamp="1578030212247">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="914" height="278" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1577970179799" />
+    <state width="914" height="278" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1578030212247" />
     <state width="914" height="300" key="GridCell.Tab.1.bottom" timestamp="1577970166944">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -297,10 +320,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="902" y="173" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1577693878190" />
-    <state x="1032" y="253" key="Vcs.Push.Dialog.v2" timestamp="1577869377601">
+    <state x="1032" y="253" key="Vcs.Push.Dialog.v2" timestamp="1577970270713">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1032" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1577869377601" />
+    <state x="1032" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1577970270713" />
     <state x="1120" y="343" key="com.intellij.ide.util.TipDialog" timestamp="1577942773104">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
