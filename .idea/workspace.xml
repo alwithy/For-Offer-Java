@@ -1,10 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a391b2e1-d057-4660-a7c0-b721e2279763" name="Default Changelist" comment="add solution of question 26">
-      <change afterPath="$PROJECT_DIR$/src/Code_034_PrintTreeFromTopToBottom.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Code_035_PrintTreeInLines.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Code_036_PrintTreeInZigzag.java" afterDir="false" />
+    <list default="true" id="a391b2e1-d057-4660-a7c0-b721e2279763" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Code_037_SequenceOfBST.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -51,14 +49,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="settings.github" />
   </component>
-  <component name="RunManager" selected="Application.Code_036_PrintTreeInZigzag">
-    <configuration name="Code_027_MergeSortedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Code_027_MergeSortedList" />
-      <module name="For-Offer-Java" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Code_037_SequenceOfBST">
     <configuration name="Code_031_PrintMatrix" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Code_031_PrintMatrix" />
       <module name="For-Offer-Java" />
@@ -87,13 +78,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Code_037_SequenceOfBST" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Code_037_SequenceOfBST" />
+      <module name="For-Offer-Java" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Code_037_SequenceOfBST" />
         <item itemvalue="Application.Code_036_PrintTreeInZigzag" />
         <item itemvalue="Application.Code_033_StackPushPopOrder" />
         <item itemvalue="Application.Code_032_MinInStack" />
         <item itemvalue="Application.Code_031_PrintMatrix" />
-        <item itemvalue="Application.Code_027_MergeSortedList" />
       </list>
     </recent_temporary>
   </component>
@@ -139,7 +137,8 @@
       <workItem from="1577942772560" duration="7146000" />
       <workItem from="1578019284560" duration="12455000" />
       <workItem from="1578138299769" duration="1752000" />
-      <workItem from="1578197391260" duration="16420000" />
+      <workItem from="1578197391260" duration="17648000" />
+      <workItem from="1578310293462" duration="3396000" />
     </task>
     <task id="LOCAL-00001" summary="solutions for question from 1 to 16.">
       <created>1577694469469</created>
@@ -274,7 +273,14 @@
       <option name="project" value="LOCAL" />
       <updated>1578216421203</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="add solution of question 32">
+      <created>1578226022593</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1578226022593</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -312,7 +318,8 @@
     <MESSAGE value="add solution of question 29" />
     <MESSAGE value="add solution of question 30" />
     <MESSAGE value="add solution of question 31" />
-    <option name="LAST_COMMIT_MESSAGE" value="add solution of question 31" />
+    <MESSAGE value="add solution of question 32" />
+    <option name="LAST_COMMIT_MESSAGE" value="add solution of question 32" />
   </component>
   <component name="WindowStateProjectService">
     <state x="412" y="222" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1578220365954">
@@ -323,10 +330,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1152" y="231" key="#com.intellij.refactoring.move.moveMembers.MoveMembersDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1577949348423" />
-    <state x="662" y="95" key="CommitChangelistDialog2" timestamp="1578216420442">
+    <state x="662" y="95" key="CommitChangelistDialog2" timestamp="1578226021474">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="662" y="95" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1578216420442" />
+    <state x="662" y="95" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1578226021474" />
     <state x="286" y="74" key="DiffContextDialog" timestamp="1578140061441">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -339,22 +346,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1299" y="410" key="Github.ShareDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1577695431733" />
-    <state width="914" height="277" key="GridCell.Tab.0.bottom" timestamp="1578226004240">
+    <state width="914" height="277" key="GridCell.Tab.0.bottom" timestamp="1578315272745">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="914" height="277" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1578226004240" />
-    <state width="914" height="277" key="GridCell.Tab.0.center" timestamp="1578226004240">
+    <state width="914" height="277" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1578315272745" />
+    <state width="914" height="277" key="GridCell.Tab.0.center" timestamp="1578315272745">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="914" height="277" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1578226004240" />
-    <state width="914" height="277" key="GridCell.Tab.0.left" timestamp="1578226004240">
+    <state width="914" height="277" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1578315272745" />
+    <state width="914" height="277" key="GridCell.Tab.0.left" timestamp="1578315272745">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="914" height="277" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1578226004240" />
-    <state width="914" height="277" key="GridCell.Tab.0.right" timestamp="1578226004240">
+    <state width="914" height="277" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1578315272745" />
+    <state width="914" height="277" key="GridCell.Tab.0.right" timestamp="1578315272745">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="914" height="277" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1578226004240" />
+    <state width="914" height="277" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1578315272745" />
     <state width="914" height="300" key="GridCell.Tab.1.bottom" timestamp="1578225981862">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -379,10 +386,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="902" y="173" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1577693878190" />
-    <state x="1032" y="252" width="816" height="535" key="Vcs.Push.Dialog.v2" timestamp="1578216427149">
+    <state x="1032" y="252" width="816" height="535" key="Vcs.Push.Dialog.v2" timestamp="1578226027395">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1032" y="252" width="816" height="535" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1578216427149" />
+    <state x="1032" y="252" width="816" height="535" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1578226027395" />
     <state x="544" y="93" width="1255" height="840" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1578225757460">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -399,6 +406,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1224" y="311" key="git4idea.merge.GitMergeDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1578140107181" />
+    <state x="669" y="130" key="new project wizard" timestamp="1578310371263">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="669" y="130" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1578310371263" />
     <state x="1103" y="229" width="672" height="678" key="search.everywhere.popup" timestamp="1578220180693">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
