@@ -1,13 +1,5 @@
 public class Code_037_SequenceOfBST {
     //P179,面试题33 二叉搜索树的后序遍历序列
-    public static class Node {
-        int value;
-        Node left;
-        Node right;
-        public Node (int value) {
-            this.value = value;
-        }
-    }
 
     //使用递归判断
     public static boolean isSequenceOfBST (int[] arr, int begin, int end) {
