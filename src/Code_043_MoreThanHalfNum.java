@@ -28,6 +28,33 @@ public class Code_043_MoreThanHalfNum {
         }
     }
 
+    //方法2，利用数组性质
+    public static int moreThanHalfNumByArr(int[] arr) {
+        if (arr == null || arr.length <= 0) {
+            throw new RuntimeException("Invalid input!");
+        }
+
+        int num = arr[0];
+        int times = 0;
+        for (int i = 0; i < arr.length; i++) {
+            if (num == arr[i]) {
+                times++;
+            } else {
+                if (times > 0) {
+                    times--;
+                } else {
+                    num = arr[i];
+                    times = 1;
+                }
+            }
+        }
+        if (checkMoreThanHalf(arr, num)) {
+            return num;
+        } else {
+            return 0;
+        }
+    }
+
     public static boolean checkMoreThanHalf(int[] arr, int res) {
         int times = 0;
         for (int i = 0; i < arr.length; i++) {
