@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a391b2e1-d057-4660-a7c0-b721e2279763" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Code_046_GreatestSumOfSubarrays.java" afterDir="false" />
+    <list default="true" id="a391b2e1-d057-4660-a7c0-b721e2279763" name="Default Changelist" comment="add another solution of question 40">
+      <change afterPath="$PROJECT_DIR$/src/Code_047_NumberOf1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -49,14 +49,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="settings.github" />
   </component>
-  <component name="RunManager" selected="Application.Code_042_StringPermutation">
-    <configuration name="Code_036_PrintTreeInZigzag" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Code_036_PrintTreeInZigzag" />
-      <module name="For-Offer-Java" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Code_047_NumberOf1">
     <configuration name="Code_037_SequenceOfBST" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Code_037_SequenceOfBST" />
       <module name="For-Offer-Java" />
@@ -85,13 +78,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Code_047_NumberOf1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Code_047_NumberOf1" />
+      <module name="For-Offer-Java" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Code_047_NumberOf1" />
         <item itemvalue="Application.Code_042_StringPermutation" />
         <item itemvalue="Application.Code_040_ConvertBinarySearchTree" />
         <item itemvalue="Application.Code_038_PathInTree" />
         <item itemvalue="Application.Code_037_SequenceOfBST" />
-        <item itemvalue="Application.Code_036_PrintTreeInZigzag" />
       </list>
     </recent_temporary>
   </component>
@@ -144,6 +144,7 @@
       <workItem from="1578914972624" duration="3343000" />
       <workItem from="1578924196883" duration="2938000" />
       <workItem from="1579007867715" duration="1174000" />
+      <workItem from="1579524906599" duration="5047000" />
     </task>
     <task id="LOCAL-00001" summary="solutions for question from 1 to 16.">
       <created>1577694469469</created>
@@ -404,10 +405,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1152" y="231" key="#com.intellij.refactoring.move.moveMembers.MoveMembersDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1578915625942" />
-    <state x="662" y="95" key="CommitChangelistDialog2" timestamp="1578927731052">
+    <state x="662" y="95" key="CommitChangelistDialog2" timestamp="1579524914939">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="662" y="95" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1578927731052" />
+    <state x="662" y="95" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1579524914939" />
     <state x="286" y="74" key="DiffContextDialog" timestamp="1578140061441">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -420,38 +421,38 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1299" y="410" key="Github.ShareDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1577695431733" />
-    <state width="914" height="277" key="GridCell.Tab.0.bottom" timestamp="1578829808507">
+    <state width="914" height="277" key="GridCell.Tab.0.bottom" timestamp="1579535036925">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="914" height="277" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1578829808507" />
-    <state width="914" height="277" key="GridCell.Tab.0.center" timestamp="1578829808507">
+    <state width="914" height="277" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1579535036925" />
+    <state width="914" height="277" key="GridCell.Tab.0.center" timestamp="1579535036925">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="914" height="277" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1578829808507" />
-    <state width="914" height="277" key="GridCell.Tab.0.left" timestamp="1578829808507">
+    <state width="914" height="277" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1579535036925" />
+    <state width="914" height="277" key="GridCell.Tab.0.left" timestamp="1579535036925">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="914" height="277" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1578829808507" />
-    <state width="914" height="277" key="GridCell.Tab.0.right" timestamp="1578829808507">
+    <state width="914" height="277" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1579535036925" />
+    <state width="914" height="277" key="GridCell.Tab.0.right" timestamp="1579535036925">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="914" height="277" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1578829808507" />
-    <state width="914" height="300" key="GridCell.Tab.1.bottom" timestamp="1578824409389">
+    <state width="914" height="277" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1579535036925" />
+    <state width="914" height="300" key="GridCell.Tab.1.bottom" timestamp="1579535036113">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="914" height="300" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1578824409389" />
-    <state width="914" height="300" key="GridCell.Tab.1.center" timestamp="1578824409389">
+    <state width="914" height="300" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1579535036113" />
+    <state width="914" height="300" key="GridCell.Tab.1.center" timestamp="1579535036113">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="914" height="300" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1578824409389" />
-    <state width="914" height="300" key="GridCell.Tab.1.left" timestamp="1578824409388">
+    <state width="914" height="300" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1579535036113" />
+    <state width="914" height="300" key="GridCell.Tab.1.left" timestamp="1579535036113">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="914" height="300" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1578824409388" />
-    <state width="914" height="300" key="GridCell.Tab.1.right" timestamp="1578824409389">
+    <state width="914" height="300" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1579535036113" />
+    <state width="914" height="300" key="GridCell.Tab.1.right" timestamp="1579535036113">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="914" height="300" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1578824409389" />
+    <state width="914" height="300" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1579535036113" />
     <state x="1264" y="242" key="RollbackChangesDialog" timestamp="1578140127747">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -460,10 +461,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="902" y="173" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1577693878190" />
-    <state x="1032" y="252" width="816" height="535" key="Vcs.Push.Dialog.v2" timestamp="1578927741202">
+    <state x="1032" y="252" width="816" height="535" key="Vcs.Push.Dialog.v2" timestamp="1579009074563">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1032" y="252" width="816" height="535" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1578927741202" />
+    <state x="1032" y="252" width="816" height="535" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1579009074563" />
     <state x="544" y="93" width="1255" height="840" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1578225757460">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -516,6 +517,11 @@
           <url>file://$PROJECT_DIR$/src/Code_042_StringPermutation.java</url>
           <line>17</line>
           <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Code_047_NumberOf1.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="13" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
