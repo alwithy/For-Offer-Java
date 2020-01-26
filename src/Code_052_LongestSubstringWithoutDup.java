@@ -32,6 +32,8 @@ public class Code_052_LongestSubstringWithoutDup {
 
     public static void main(String[] args) {
         String str = "arabcacfr";
+        String str1 = "aaaaaaaa";
         System.out.println(longestSubWithoutDup(str));
+        System.out.println(longestSubWithoutDup(str1));
     }
 }
