@@ -1,6 +1,6 @@
 public class Code_058_NumOfK {
     //P263,面试题53 题目1 在排序数组中查找数字
-    public static int NumOfK(int[] arr, int k) {
+    public static int numOfK(int[] arr, int k) {
         if (arr == null || arr.length == 0) {
             return 0;
         }
@@ -56,10 +56,10 @@ public class Code_058_NumOfK {
 
     public static void main(String[] args) {
         int[] arr = {1,2,3,3,3,3,3,4};
-        System.out.println(NumOfK(arr,1));
-        System.out.println(NumOfK(arr,2));
-        System.out.println(NumOfK(arr,3));
-        System.out.println(NumOfK(arr,4));
+        System.out.println(numOfK(arr,1));
+        System.out.println(numOfK(arr,2));
+        System.out.println(numOfK(arr,3));
+        System.out.println(numOfK(arr,4));
         //System.out.println(NumOfK(arr,4));
     }
 }

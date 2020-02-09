@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a391b2e1-d057-4660-a7c0-b721e2279763" name="Default Changelist" comment="add solution for question 50">
-      <change afterPath="$PROJECT_DIR$/src/Code_058_NumOfK.java" afterDir="false" />
+    <list default="true" id="a391b2e1-d057-4660-a7c0-b721e2279763" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Code_059_MissingNum.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -49,16 +49,9 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="settings.github" />
   </component>
-  <component name="RunManager" selected="Application.Code_058_NumOfK">
+  <component name="RunManager" selected="Application.Code_059_MissingNum">
     <configuration name="Code_042_StringPermutation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Code_042_StringPermutation" />
-      <module name="For-Offer-Java" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Code_053_UglyNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Code_053_UglyNumber" />
       <module name="For-Offer-Java" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -85,13 +78,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Code_059_MissingNum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Code_059_MissingNum" />
+      <module name="For-Offer-Java" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Code_059_MissingNum" />
         <item itemvalue="Application.Code_058_NumOfK" />
         <item itemvalue="Application.Code_042_StringPermutation" />
         <item itemvalue="Application.Code_056_InversePairs" />
         <item itemvalue="Application.Code_054_FirstNotRepeatingChar" />
-        <item itemvalue="Application.Code_053_UglyNumber" />
       </list>
     </recent_temporary>
   </component>
@@ -152,7 +152,7 @@
       <workItem from="1580731186955" duration="6954000" />
       <workItem from="1580819234034" duration="2733000" />
       <workItem from="1581158689785" duration="4167000" />
-      <workItem from="1581229039049" duration="2035000" />
+      <workItem from="1581229039049" duration="4569000" />
     </task>
     <task id="LOCAL-00001" summary="solutions for question from 1 to 16.">
       <created>1577694469469</created>
@@ -448,7 +448,14 @@
       <option name="project" value="LOCAL" />
       <updated>1580822040963</updated>
     </task>
-    <option name="localTasksCounter" value="43" />
+    <task id="LOCAL-00043" summary="add solution for question 50">
+      <created>1581232641028</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1581232641028</updated>
+    </task>
+    <option name="localTasksCounter" value="44" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -491,9 +498,9 @@
     <MESSAGE value="add solution for question 48" />
     <MESSAGE value="add test for question 48" />
     <MESSAGE value="add solution for question 49" />
-    <MESSAGE value="add solution for question 50" />
     <MESSAGE value="add solution for question 52" />
-    <option name="LAST_COMMIT_MESSAGE" value="add solution for question 52" />
+    <MESSAGE value="add solution for question 50" />
+    <option name="LAST_COMMIT_MESSAGE" value="add solution for question 50" />
   </component>
   <component name="WindowStateProjectService">
     <state x="412" y="222" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1578220365954">
@@ -508,10 +515,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1152" y="231" key="#com.intellij.refactoring.move.moveMembers.MoveMembersDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1578915625942" />
-    <state x="662" y="95" key="CommitChangelistDialog2" timestamp="1581232623078">
+    <state x="662" y="95" key="CommitChangelistDialog2" timestamp="1581232640128">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="662" y="95" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1581232623078" />
+    <state x="662" y="95" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1581232640128" />
     <state x="286" y="74" key="DiffContextDialog" timestamp="1580646907985">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -524,22 +531,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1299" y="410" key="Github.ShareDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1577695431733" />
-    <state width="914" height="277" key="GridCell.Tab.0.bottom" timestamp="1581232600782">
+    <state width="914" height="277" key="GridCell.Tab.0.bottom" timestamp="1581235323310">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="914" height="277" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1581232600782" />
-    <state width="914" height="277" key="GridCell.Tab.0.center" timestamp="1581232600782">
+    <state width="914" height="277" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1581235323310" />
+    <state width="914" height="277" key="GridCell.Tab.0.center" timestamp="1581235323310">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="914" height="277" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1581232600782" />
-    <state width="914" height="277" key="GridCell.Tab.0.left" timestamp="1581232600782">
+    <state width="914" height="277" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1581235323310" />
+    <state width="914" height="277" key="GridCell.Tab.0.left" timestamp="1581235323309">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="914" height="277" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1581232600782" />
-    <state width="914" height="277" key="GridCell.Tab.0.right" timestamp="1581232600782">
+    <state width="914" height="277" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1581235323309" />
+    <state width="914" height="277" key="GridCell.Tab.0.right" timestamp="1581235323310">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="914" height="277" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1581232600782" />
+    <state width="914" height="277" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1581235323310" />
     <state width="914" height="300" key="GridCell.Tab.1.bottom" timestamp="1581232192099">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
