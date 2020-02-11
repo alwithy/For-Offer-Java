@@ -25,7 +25,7 @@ public class Code_064_NumAppearOnce {
 
     private static int findFirstBitIs1(int num) {
         int index = 0;
-        while (((num & 1) == 0) && index <= 32) {
+        while (((num & 1) == 0) && index <= 32) {//int最多占32位
             num = num >> 1;
             index++;
         }
