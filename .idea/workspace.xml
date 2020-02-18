@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a391b2e1-d057-4660-a7c0-b721e2279763" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Code_069_LeftRotateString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Code_071_QueueWithMax.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -57,14 +57,7 @@
   <component name="Push.Settings">
     <option name="SHOW_DETAILS_PANEL" value="false" />
   </component>
-  <component name="RunManager" selected="Application.Code_069_LeftRotateString">
-    <configuration name="Code_064_NumAppearOnce" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Code_064_NumAppearOnce" />
-      <module name="For-Offer-Java" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Code_070_MaxInSlidingWindow">
     <configuration name="Code_066_TwoNumWithSumS" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Code_066_TwoNumWithSumS" />
       <module name="For-Offer-Java" />
@@ -93,13 +86,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Code_070_MaxInSlidingWindow" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Code_070_MaxInSlidingWindow" />
+      <module name="For-Offer-Java" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Code_070_MaxInSlidingWindow" />
         <item itemvalue="Application.Code_069_LeftRotateString" />
         <item itemvalue="Application.Code_068_ReverseWordsInSentence" />
         <item itemvalue="Application.Code_067_ContinuousSequenceWithSum" />
         <item itemvalue="Application.Code_066_TwoNumWithSumS" />
-        <item itemvalue="Application.Code_064_NumAppearOnce" />
       </list>
     </recent_temporary>
   </component>
@@ -167,35 +167,8 @@
       <workItem from="1581690599474" duration="5429000" />
       <workItem from="1581755646578" duration="3004000" />
       <workItem from="1581855332880" duration="1585000" />
-      <workItem from="1581906794410" duration="1470000" />
-    </task>
-    <task id="LOCAL-00005" summary="add solution of question 19">
-      <created>1577783566774</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1577783566774</updated>
-    </task>
-    <task id="LOCAL-00006" summary="add solution of question 20">
-      <created>1577802349465</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1577802349465</updated>
-    </task>
-    <task id="LOCAL-00007" summary="add another solution of question 20">
-      <created>1577861883618</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1577861883618</updated>
-    </task>
-    <task id="LOCAL-00008" summary="add solution of question 21">
-      <created>1577867127659</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1577867127659</updated>
+      <workItem from="1581906794410" duration="2233000" />
+      <workItem from="1581944110467" duration="8469000" />
     </task>
     <task id="LOCAL-00009" summary="add solution of question 22">
       <created>1577869369097</created>
@@ -512,7 +485,35 @@
       <option name="project" value="LOCAL" />
       <updated>1581855764672</updated>
     </task>
-    <option name="localTasksCounter" value="54" />
+    <task id="LOCAL-00054" summary="add solution for question 58">
+      <created>1581908394855</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1581908394855</updated>
+    </task>
+    <task id="LOCAL-00055" summary="add solution for question 58">
+      <created>1582010842087</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1582010842087</updated>
+    </task>
+    <task id="LOCAL-00056" summary="Revert &quot;add solution for question 58&quot;&#10;&#10;This reverts commit 07784488">
+      <created>1582010931311</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1582010931311</updated>
+    </task>
+    <task id="LOCAL-00057" summary="add solution for question 59">
+      <created>1582011004512</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1582011004512</updated>
+    </task>
+    <option name="localTasksCounter" value="58" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -532,9 +533,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="add solution of question 32" />
-    <MESSAGE value="add solution of question 33" />
-    <MESSAGE value="add solution of question 34" />
     <MESSAGE value="add solution of question 36" />
     <MESSAGE value="add solution of question 37" />
     <MESSAGE value="add solution of question 38" />
@@ -557,7 +555,10 @@
     <MESSAGE value="add solution for question 55" />
     <MESSAGE value="add solution for question 56" />
     <MESSAGE value="add solution for question 57" />
-    <option name="LAST_COMMIT_MESSAGE" value="add solution for question 57" />
+    <MESSAGE value="add solution for question 58" />
+    <MESSAGE value="Revert &quot;add solution for question 58&quot;&#10;&#10;This reverts commit 07784488" />
+    <MESSAGE value="add solution for question 59" />
+    <option name="LAST_COMMIT_MESSAGE" value="add solution for question 59" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1032" y="182" key="#Notifications" timestamp="1581755225112">
@@ -576,10 +577,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1152" y="231" key="#com.intellij.refactoring.move.moveMembers.MoveMembersDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1578915625942" />
-    <state x="662" y="95" key="CommitChangelistDialog2" timestamp="1581857017708">
+    <state x="662" y="95" key="CommitChangelistDialog2" timestamp="1582011002909">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="662" y="95" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1581857017708" />
+    <state x="662" y="95" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1582011002909" />
     <state x="286" y="74" key="DiffContextDialog" timestamp="1581435876078">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -596,58 +597,62 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1299" y="410" key="Github.ShareDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1577695431733" />
-    <state width="914" height="276" key="GridCell.Tab.0.bottom" timestamp="1581908376650">
+    <state width="914" height="276" key="GridCell.Tab.0.bottom" timestamp="1582010833594">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="914" height="276" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1581908376650" />
-    <state width="914" height="276" key="GridCell.Tab.0.center" timestamp="1581908376650">
+    <state width="914" height="276" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1582010833594" />
+    <state width="914" height="276" key="GridCell.Tab.0.center" timestamp="1582010833594">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="914" height="276" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1581908376650" />
-    <state width="914" height="276" key="GridCell.Tab.0.left" timestamp="1581908376650">
+    <state width="914" height="276" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1582010833594" />
+    <state width="914" height="276" key="GridCell.Tab.0.left" timestamp="1582010833594">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="914" height="276" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1581908376650" />
-    <state width="914" height="276" key="GridCell.Tab.0.right" timestamp="1581908376650">
+    <state width="914" height="276" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1582010833594" />
+    <state width="914" height="276" key="GridCell.Tab.0.right" timestamp="1582010833594">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="914" height="276" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1581908376650" />
-    <state width="914" height="300" key="GridCell.Tab.1.bottom" timestamp="1581232192099">
+    <state width="914" height="276" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1582010833594" />
+    <state width="914" height="300" key="GridCell.Tab.1.bottom" timestamp="1582010828033">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="914" height="300" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1581232192099" />
-    <state width="914" height="300" key="GridCell.Tab.1.center" timestamp="1581232192099">
+    <state width="914" height="300" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1582010828033" />
+    <state width="914" height="300" key="GridCell.Tab.1.center" timestamp="1582010828033">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="914" height="300" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1581232192099" />
-    <state width="914" height="300" key="GridCell.Tab.1.left" timestamp="1581232192099">
+    <state width="914" height="300" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1582010828033" />
+    <state width="914" height="300" key="GridCell.Tab.1.left" timestamp="1582010828033">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="914" height="300" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1581232192099" />
-    <state width="914" height="300" key="GridCell.Tab.1.right" timestamp="1581232192099">
+    <state width="914" height="300" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1582010828033" />
+    <state width="914" height="300" key="GridCell.Tab.1.right" timestamp="1582010828033">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="914" height="300" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1581232192099" />
-    <state x="1264" y="242" key="RollbackChangesDialog" timestamp="1578140127747">
+    <state width="914" height="300" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1582010828033" />
+    <state x="1264" y="242" key="RollbackChangesDialog" timestamp="1582010898985">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1264" y="242" key="RollbackChangesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1578140127747" />
+    <state x="1264" y="242" key="RollbackChangesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1582010898985" />
     <state x="902" y="173" key="SettingsEditor" timestamp="1577693878190">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="902" y="173" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1577693878190" />
-    <state x="1032" y="252" width="816" height="535" key="Vcs.Push.Dialog.v2" timestamp="1581857027698">
+    <state x="1032" y="252" width="816" height="535" key="Vcs.Push.Dialog.v2" timestamp="1582011038733">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1032" y="252" width="816" height="535" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1581857027698" />
+    <state x="1032" y="252" width="816" height="535" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1582011038733" />
+    <state x="585" y="176" width="774" height="840" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog" timestamp="1582010980645">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="585" y="176" width="774" height="840" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1582010980645" />
     <state x="544" y="93" width="1255" height="840" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1578225757460">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="544" y="93" width="1255" height="840" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1578225757460" />
-    <state x="1120" y="343" key="com.intellij.ide.util.TipDialog" timestamp="1581855333493">
+    <state x="1120" y="343" key="com.intellij.ide.util.TipDialog" timestamp="1581944110533">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1120" y="343" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1581855333493" />
+    <state x="1120" y="343" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1581944110533" />
     <state x="991" y="256" width="897" height="606" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1576757117779">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -656,10 +661,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1224" y="311" key="git4idea.merge.GitMergeDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1578140107181" />
-    <state x="1137" y="311" key="git4idea.merge.GitPullDialog" timestamp="1581436036112">
+    <state x="1137" y="311" key="git4idea.merge.GitPullDialog" timestamp="1582011031853">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1137" y="311" key="git4idea.merge.GitPullDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1581436036112" />
+    <state x="1137" y="311" key="git4idea.merge.GitPullDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1582011031853" />
     <state x="669" y="130" key="new project wizard" timestamp="1578310371263">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
