@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a391b2e1-d057-4660-a7c0-b721e2279763" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Code_071_QueueWithMax.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Code_072_DiceProbability.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -57,14 +57,7 @@
   <component name="Push.Settings">
     <option name="SHOW_DETAILS_PANEL" value="false" />
   </component>
-  <component name="RunManager" selected="Application.Code_070_MaxInSlidingWindow">
-    <configuration name="Code_066_TwoNumWithSumS" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Code_066_TwoNumWithSumS" />
-      <module name="For-Offer-Java" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Code_072_DiceProbability">
     <configuration name="Code_067_ContinuousSequenceWithSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Code_067_ContinuousSequenceWithSum" />
       <module name="For-Offer-Java" />
@@ -93,13 +86,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Code_072_DiceProbability" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Code_072_DiceProbability" />
+      <module name="For-Offer-Java" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Code_072_DiceProbability" />
         <item itemvalue="Application.Code_070_MaxInSlidingWindow" />
         <item itemvalue="Application.Code_069_LeftRotateString" />
         <item itemvalue="Application.Code_068_ReverseWordsInSentence" />
         <item itemvalue="Application.Code_067_ContinuousSequenceWithSum" />
-        <item itemvalue="Application.Code_066_TwoNumWithSumS" />
       </list>
     </recent_temporary>
   </component>
@@ -168,14 +168,8 @@
       <workItem from="1581755646578" duration="3004000" />
       <workItem from="1581855332880" duration="1585000" />
       <workItem from="1581906794410" duration="2233000" />
-      <workItem from="1581944110467" duration="8469000" />
-    </task>
-    <task id="LOCAL-00009" summary="add solution of question 22">
-      <created>1577869369097</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1577869369097</updated>
+      <workItem from="1581944110467" duration="10193000" />
+      <workItem from="1582348308157" duration="4535000" />
     </task>
     <task id="LOCAL-00010" summary="add solution of question 23">
       <created>1577949662826</created>
@@ -513,7 +507,14 @@
       <option name="project" value="LOCAL" />
       <updated>1582011004512</updated>
     </task>
-    <option name="localTasksCounter" value="58" />
+    <task id="LOCAL-00058" summary="add solution for question 59">
+      <created>1582013496399</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1582013496399</updated>
+    </task>
+    <option name="localTasksCounter" value="59" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -577,10 +578,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1152" y="231" key="#com.intellij.refactoring.move.moveMembers.MoveMembersDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1578915625942" />
-    <state x="662" y="95" key="CommitChangelistDialog2" timestamp="1582011002909">
+    <state x="662" y="95" key="CommitChangelistDialog2" timestamp="1582013495572">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="662" y="95" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1582011002909" />
+    <state x="662" y="95" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1582013495572" />
     <state x="286" y="74" key="DiffContextDialog" timestamp="1581435876078">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -597,22 +598,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1299" y="410" key="Github.ShareDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1577695431733" />
-    <state width="914" height="276" key="GridCell.Tab.0.bottom" timestamp="1582010833594">
+    <state width="914" height="276" key="GridCell.Tab.0.bottom" timestamp="1582353876760">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="914" height="276" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1582010833594" />
-    <state width="914" height="276" key="GridCell.Tab.0.center" timestamp="1582010833594">
+    <state width="914" height="276" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1582353876760" />
+    <state width="914" height="276" key="GridCell.Tab.0.center" timestamp="1582353876760">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="914" height="276" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1582010833594" />
-    <state width="914" height="276" key="GridCell.Tab.0.left" timestamp="1582010833594">
+    <state width="914" height="276" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1582353876760" />
+    <state width="914" height="276" key="GridCell.Tab.0.left" timestamp="1582353876760">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="914" height="276" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1582010833594" />
-    <state width="914" height="276" key="GridCell.Tab.0.right" timestamp="1582010833594">
+    <state width="914" height="276" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1582353876760" />
+    <state width="914" height="276" key="GridCell.Tab.0.right" timestamp="1582353876760">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="914" height="276" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1582010833594" />
+    <state width="914" height="276" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1582353876760" />
     <state width="914" height="300" key="GridCell.Tab.1.bottom" timestamp="1582010828033">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -637,10 +638,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="902" y="173" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1577693878190" />
-    <state x="1032" y="252" width="816" height="535" key="Vcs.Push.Dialog.v2" timestamp="1582011038733">
+    <state x="1032" y="252" width="816" height="535" key="Vcs.Push.Dialog.v2" timestamp="1582013505875">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1032" y="252" width="816" height="535" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1582011038733" />
+    <state x="1032" y="252" width="816" height="535" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1582013505875" />
     <state x="585" y="176" width="774" height="840" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog" timestamp="1582010980645">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
